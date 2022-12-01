@@ -5,7 +5,7 @@
 #include <vector>
 
 const std::vector<Testcase> testcases{
-    {"1",{},1,2}
+  {"1",{},1,2}
 };
 
 #endif // !TESTCASES_H

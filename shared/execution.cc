@@ -51,4 +51,4 @@ bool Execution::run_testcases(std::function<int(const std::string&, const std::m
 void Execution::handle_error(const int& index, const std::string& message, const int& expected, const int& actual) {
     std::cout << "Testcase " << index+1 << " " << message << " failed. "
         << "Expected: " << expected << " != " << actual << std::endl;
-
+}
